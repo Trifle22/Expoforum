@@ -1,14 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/nice-select.css">
 </head>
 
 <body>
-
+    <header class="header">
+        <div class="wrapper">
+            <div class="content-top">
+                <div class="logo">
+                    <a href="#" class="logo-icon"><img src="img/logo.svg" alt="logo"></a>
+                </div>
+                <div class="header-navigation">
+                    <a href="#" class="header-navigation-link">О комплексе</a>
+                    <a href="#" class="header-navigation-link">О компании</a>
+                    <a href="#" class="header-navigation-link">Новости</a>
+                    <a href="#" class="header-navigation-link">Медиа-банк</a>
+                    <a href="#" class="header-navigation-link">Контакты</a>
+                </div>
+                <div class="search-lang">
+                    <input type="text" class="header-search">
+                    <img src="img/Globe.svg" alt="" class="globe">
+                    <select name="language" id="lang">
+                      <option value="English">English</option>
+                      <option value="Russian">Russian</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/jquery.nice-select.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>
