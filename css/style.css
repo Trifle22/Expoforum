@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
 .content-top {
     width: 100%;
     height: 90px;
@@ -55,4 +61,76 @@
 .globe {
     margin-left: 50px;
     margin-right: 11px;
+}
+
+.bottom-header-wrap {
+    width: 100%;
+    border-top: 1px solid #fff;
+}
+
+.bottom-content {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.bottom-content-text {
+    margin-top: 100px;
+}
+
+.bottom-content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 160%;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-bottom: 0;
+}
+
+.bottom-content-description {
+    color: #fff;
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.bottom-content-link {
+    color: #fff;
+    font-size: 16px;
+    line-height: 135%;
+}
+
+.bottom-content-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    max-width: 540px;
+    max-height: 353px;
+}
+
+.card {
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.card:first-child {
+    background-color: #2378fc;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.card:second-child {
+    background-color: #30bcc9;
 }
