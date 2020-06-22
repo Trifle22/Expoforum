@@ -28,6 +28,14 @@ a {
     background-size: cover;
 }
 
+.logo {
+    transition: all 0.3s ease-in;
+}
+
+.logo:hover {
+    transform: translateY(-10px);
+}
+
 .header-navigation {
     display: flex;
     margin-left: auto;
@@ -40,6 +48,11 @@ a {
     margin-left: 47px;
     font-size: 16px;
     line-height: 135%;
+    transition: all 0.5s ease;
+}
+
+.header-navigation-link:hover {
+    border-bottom: 1px solid white;
 }
 
 .search-lang {
@@ -56,11 +69,21 @@ a {
     background-repeat: no-repeat;
     background-position: right center;
     margin-left: 1px;
+    transition: all 0.3s ease-in;
+}
+
+.header-search:hover {
+    transform: translateY(-10px);
 }
 
 .globe {
     margin-left: 50px;
     margin-right: 11px;
+    transition: all 0.3s ease-in;
+}
+
+.globe:hover {
+    transform: translateY(-10px);
 }
 
 .bottom-header-wrap {
@@ -73,7 +96,7 @@ a {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: start;
     height: 100%;
 }
