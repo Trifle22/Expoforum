@@ -46,13 +46,13 @@ a {
     text-decoration: none;
     color: white;
     margin-left: 47px;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 135%;
     transition: all 0.5s ease;
 }
 
 .header-navigation-link:hover {
-    border-bottom: 1px solid white;
+    transform: translateY(-10px);
 }
 
 .search-lang {
@@ -201,4 +201,49 @@ a {
 
 .fourth:hover {
     transform: translateY(20px);
+}
+
+.section1 {
+    height: 100%;
+    width: 100%;
+    background-color: #2378fc;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.section1-links-title {
+    margin-top: 0;
+    color: white;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 130%;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in;
+}
+
+.section1-links-title:hover {
+    transform: translateY(-10px);
+}
+
+.section1-links-link {
+    font-size: 16px;
+    line-height: 135%;
+    color: white;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in;
+}
+
+.section1-links-link:hover {
+    color: #ffc41e;
+    text-decoration: underline;
+    transform: translateX(10px);
 }
