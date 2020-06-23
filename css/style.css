@@ -247,3 +247,122 @@ a {
     text-decoration: underline;
     transform: translateX(10px);
 }
+
+.events {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #ffc41e;
+    margin: 0 auto;
+}
+
+.events-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.events-header-title {
+    color: #2e373b;
+    letter-spacing: -0.01em;
+    font-size: 30px;
+    line-height: 130%;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.events-header-link {
+    color: #2e373b;
+    text-decoration: underline;
+    letter-spacing: -0.01em;
+    font-size: 21px;
+    line-height: 130%;
+}
+
+.events-header-link-img {
+    margin-left: 15px;
+    color: #2e373b;
+}
+
+.events-content {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.event-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-right: 20px;
+    width: 300px;
+}
+
+.event-card-img {
+    width: 270px;
+    height: 150px;
+}
+
+.event-card-date {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 135%;
+    color: #2e373b;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.event-card-title {
+    color: #f6404f;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.event-card-description {
+    color: #2e373b;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 135%;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.news {
+    width: 100%;
+    height: 100%;
+    background-color: #faf3e3;
+}
+
+.news-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.images img {
+    width: 445px;
+    height: 215px;
+}
